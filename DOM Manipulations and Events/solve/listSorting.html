@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="sort()">Sort List</button>
+    <ul>
+        <li>3</li>
+        <li>1</li>
+        <li>9</li>
+        <li>3</li>
+        <li>28</li>
+        <li>13</li>
+    </ul>
+
+    <script>
+        function sort() {
+            const ul = document.querySelector('ul');
+            const items = [...ul.children];
+
+            items.sort((a, b) => Number(a.textContent) - Number(b.textContent))
+
+            for (const item of items) {
+                ul.appendChild(item)
+            }
+        }
+    </script>
+</body>
+</html>
