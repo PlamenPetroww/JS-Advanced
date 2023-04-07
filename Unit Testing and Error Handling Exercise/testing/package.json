@@ -1,0 +1,17 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "charLookUp.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "PP",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
+}
