@@ -1,5 +1,6 @@
 # JS-Advanced
 
+![Advanced](https://user-images.githubusercontent.com/108054083/230742897-7aa96b5e-ce05-42da-b181-d05d688ea91f.jpg)
 
 
 Exercices and Exams - SoftUni University
